@@ -1419,6 +1419,7 @@ export default [
       "Mode",
       "Manta",
       "Avalanche",
+      "ENI"
     ],
     chainMapping: {
       "arbitrum nova": "arbitrum_nova",
@@ -2350,4 +2351,14 @@ export default [
       "zksync era": "era",
     },
   },
+  {
+    id: 94,
+    displayName: "ENI Bridge Hub",
+    bridgeDbName: "enibridgehub",
+    iconLink: "chain:eni",
+    largeTxThreshold: 10000,
+    url: "https://xplan.eniac.network/bridge",
+    chains: ["ethereum", "bsc", "polygon", "arbitrum", "optimism", "base"],
+    destinationChain: "ENI",
+  }
 ] as BridgeNetwork[];

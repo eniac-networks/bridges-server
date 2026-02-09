@@ -89,6 +89,7 @@ import movement from "./movement";
 import intersoon from "./intersoon";
 import usdt0 from "./usdt0";
 import pheasantNetwork from "./pheasant-network";
+import enibridgehub from "./enibridgehub";
 
 export default {
   polygon,
@@ -181,6 +182,7 @@ export default {
   intersoon,
   usdt0,
   pheasantNetwork,
+  enibridgehub,
 } as {
   [bridge: string]: BridgeAdapter | AsyncBridgeAdapter;
 };
